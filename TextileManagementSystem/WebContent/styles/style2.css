@@ -1,0 +1,67 @@
+@charset "ISO-8859-1";
+
+body {
+    background-color:white; 
+}
+
+
+input[type=text] {
+ width: 400px;
+
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+  border-bottom: 2px solid white;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+
+input[type=number]
+{
+	width: 400px;
+
+  padding: 20px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+ 
+
+}
+
+input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+input[type=submit] {
+	width: 400px;
+     padding :15px;
+	 display: block;
+  background-color:#9370DB;
+ 
+  
+}
+
+
+.order_container {
+  padding: 40px;
+}
+
+.move{
+ position:absolute; 
+ 
+ top:385px;
+ right:200px;
+}
